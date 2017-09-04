@@ -30,7 +30,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.nxp.hardware:vendor/nxp/interfaces/opensource \
+        -rvendor.nxp.hardware:vendor/nxp-nfc/interfaces/opensource \
         vendor.nxp.hardware.nfc@1.0::INqNfc
 
 $(GEN): $(LOCAL_PATH)/INqNfc.hal
@@ -67,7 +67,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.nxp.hardware:vendor/nxp/interfaces/opensource \
+        -rvendor.nxp.hardware:vendor/nxp-nfc/interfaces/opensource \
         vendor.nxp.hardware.nfc@1.0::INqNfc
 
 $(GEN): $(LOCAL_PATH)/INqNfc.hal
