@@ -2,7 +2,7 @@
 
 hidl_interface {
     name: "vendor.nxp.hardware.nfc@1.0",
-    root: "vendor.nxp.hardware",
+    root: "vendor.nxp.hardware.nfc",
     srcs: [
         "types.hal",
         "INqNfc.hal",
